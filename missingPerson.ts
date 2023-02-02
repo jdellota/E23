@@ -12,6 +12,7 @@ interface Admin {
 
 export type Person = User|Admin;
 
+
 export const persons:  Person[]  = [
     {
         name: 'Max Mustermann',
