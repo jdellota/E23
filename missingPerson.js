@@ -1,5 +1,5 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 exports.logPerson = exports.persons = void 0;
 exports.persons = [
     {
@@ -24,7 +24,8 @@ exports.persons = [
     }
 ];
 function logPerson(person) {
-    console.log(" - ".concat(person.name, ", ").concat(person.age));
+    console.log(` - ${person.name}, ${person.age}`);
 }
 exports.logPerson = logPerson;
 exports.persons.forEach(logPerson);
+//# sourceMappingURL=missingPerson.js.map
